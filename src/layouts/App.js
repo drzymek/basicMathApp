@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 import '../css/App.css';
-import Welcome from './Welcome';
 import Navigation from './Navigation';
 import Page from './Page';
 import Button from './Button';
@@ -12,9 +11,6 @@ class App extends Component {
     return (
       <Router>
         <div className="app">
-          <header>
-            {<Welcome />}
-          </header>
           <nav>
             {<Navigation />}
           </nav>
