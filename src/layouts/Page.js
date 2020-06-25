@@ -1,6 +1,12 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 
+import HomePage from '../pages/HomePage';
+import AdditionPage from '../pages/AdditionPage';
+import SubtractionPage from '../pages/SubtractionPage';
+import MultiplicationPage from '../pages/MultiplicationPage';
+import DivisionPage from '../pages/DivisionPage';
+
 const Page = () => {
     return (
         <>
