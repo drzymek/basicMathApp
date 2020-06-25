@@ -5,7 +5,7 @@ import '../css/App.css';
 import Welcome from './Welcome';
 import Navigation from './Navigation';
 import Page from './Page';
-import Buttons from './Buttons';
+import Button from './Button';
 
 class App extends Component {
   render() {
@@ -23,7 +23,7 @@ class App extends Component {
               {<Page />}
             </section>
             <section>
-              {<Buttons />}
+              {<Button />}
             </section>
           </main>
         </div>
