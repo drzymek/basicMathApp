@@ -1,0 +1,88 @@
+.tasks {
+  width: 100%;
+}
+
+.tasks .task {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tasks .task .divNumber {
+  width: 90px;
+  height: 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  margin-right: 15px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: .25rem;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.tasks .task svg {
+  font-size: 10px;
+}
+
+.tasks .task input {
+  width: 80px;
+  height: 30px;
+  font-size: 10px;
+  text-transform: uppercase;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: .25rem;
+  outline: none;
+}
+
+.tasks .task input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.tasks .task input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+.tasks .task input:focus::-ms-input-placeholder {
+  color: transparent;
+}
+
+.tasks .task input:focus::placeholder {
+  color: transparent;
+}
+
+.tasks .task ::-webkit-input-placeholder {
+  padding: 3px;
+  color: black;
+  font-size: 7px;
+}
+
+.tasks .task :-ms-input-placeholder {
+  padding: 3px;
+  color: black;
+  font-size: 7px;
+}
+
+.tasks .task ::-ms-input-placeholder {
+  padding: 3px;
+  color: black;
+  font-size: 7px;
+}
+
+.tasks .task ::placeholder {
+  padding: 3px;
+  color: black;
+  font-size: 7px;
+}
+/*# sourceMappingURL=Tasks.css.map */

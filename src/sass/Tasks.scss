@@ -1,0 +1,52 @@
+.tasks {
+    width: 100%;
+
+
+    .task {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .divNumber {
+            width: 90px;
+            height: 30px;
+            font-size: 15px;
+            text-transform: uppercase;
+            margin-left: 15px;
+            margin-bottom: 5px;
+            margin-right: 15px;
+            text-align: center;
+            line-height: 30px;
+            border-radius: .25rem;
+            border: 1px solid black;
+            cursor: pointer;
+        }
+
+        svg {
+            font-size: 10px;
+        }
+
+        input {
+            width: 80px;
+            height: 30px;
+            font-size: 10px;
+            text-transform: uppercase;
+            margin-left: 15px;
+            margin-bottom: 5px;
+            border: 1px solid black;
+            text-align: center;
+            border-radius: .25rem;
+            outline: none;
+        }
+
+        input:focus::placeholder {
+            color: transparent;
+        }
+
+        ::placeholder {
+            padding: 3px;
+            color: black;
+            font-size: 7px;
+        }
+    }
+}
