@@ -9,6 +9,8 @@ const SubtractionTask = () => {
             <div className="divNumber" onClick={() => setNumber1(Math.floor(Math.random() * 100))}>{number1}</div>
             <FontAwesomeIcon icon="minus" />
             <div className="divNumber" onClick={() => setNumber2(Math.floor(Math.random() * 100))}>{number2}</div>
+            <FontAwesomeIcon icon="equals" />
+            <input type="text" maxLength="10" placeholder="Your answer" onFocus="this.placeholder = ''" />
         </div>
     );
 }
